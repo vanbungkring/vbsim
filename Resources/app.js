@@ -1,3 +1,7 @@
+/*
+ author: arie prasetyo
+ company: 513
+ */
 var tabGroup;
 (function() {
 	// 1. create tab group
@@ -70,7 +74,7 @@ function _createNews() {
 		backgroundRepeat : true,
 		url : 'news.js',
 
-		backgroundRepeat : true
+		backgroundRepeat : false
 	});
 	var buttonNav = Ti.UI.createButton({
 		width : 24,
@@ -180,7 +184,7 @@ function _createTab_Gallery() {
 }
 
 function _createTab_Schedule() {
-		Titanium.UI.iPhone.showStatusBar();
+	Titanium.UI.iPhone.showStatusBar();
 	Titanium.UI.iPhone.statusBarStyle = Titanium.UI.iPhone.StatusBar.OPAQUE_BLACK;
 	var win = Ti.UI.createWindow({
 		title : 'Maps',
@@ -226,7 +230,7 @@ function _createTab_Schedule() {
 		window : win,
 	});
 	return tab;
-	
+
 	return tab;
 }
 
