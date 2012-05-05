@@ -18,8 +18,8 @@ var webwin = Ti.UI.createWindow({
 	//barColor : '#000',
 	backgroundImage : 'images/bg.gif',
 	backgroundRepeat : true,
-	title : 'News Detail',
-	barImage : 'images/navbar.png',
+	title : 'Video Detail',
+	barImage : 'images/navbar-blue.png',
 	navBarHidden : false,
 })
 var close = Titanium.UI.createButton({
