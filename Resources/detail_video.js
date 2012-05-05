@@ -35,7 +35,7 @@ var tableview = Ti.UI.createTableView({
 });
 
 var winzz = Ti.UI.createWindow({
-	barImage : 'images/navbar.png',
+	barImage : 'images/navbar-blue.png',
 	backgroundImage : 'images/bg.gif',
 	backgroundRepeat : true,
 });
