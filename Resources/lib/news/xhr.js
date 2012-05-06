@@ -25,7 +25,7 @@ function loadDataInternet(inx, pageNumb) {
 
 			var url = tweets.posts[i].url;
 			var video_capture = tweets.posts[i].video;
-			Ti.API.info(video_capture);
+			//Ti.API.info(video_capture);
 			var row = Titanium.UI.createTableViewRow({
 				height : 'auto',
 				backgroundImage : 'images/normal.png',
@@ -93,7 +93,7 @@ function loadDataInternet(inx, pageNumb) {
 				news_thumbnail.text = 'images/not-connect.jpg';
 			}
 			post_view.add(news_thumbnail);
-			Ti.API.info(news_thumbnail.text);
+			//Ti.API.info(news_thumbnail.text);
 
 			var vid_image = Titanium.UI.createImageView({
 				image : 'images/video-capture.png', // the image for the image view
